@@ -1,0 +1,182 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+    font-weight: 400;
+}
+
+.arrowUp {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    box-shadow: 0 0 2px 2px rgb(19, 19, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 50px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.arrowUp:hover {
+    background-position: 100% 0;
+}
+
+.arrowUp img {
+    width: 20px;
+    height: 20px;
+}
+
+.container {
+    margin: 0px 120px;
+}
+
+.header {
+    background-color: black;
+    height: 400vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    color: #F7F7F7;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 22px;
+    
+    transition: color 0.3s linear;
+
+    margin-right: 40px;
+}
+
+.nav-item:hover {
+    color: #D90B2B;
+    
+}
+
+.title1 {
+    color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 120px;
+}
+
+.title2 {
+    color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.foto {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    
+
+}
+
+.foto img {
+    width: 100%;
+}
+
+.title3 {
+    color: #F7F7F7;
+    font-size: 50px;
+    padding-top: 80px;
+    text-align: left;
+    
+}
+
+.title4 {
+    color: #F7F7F7;
+    font-size: 18px;
+    text-align: left;
+    
+}
+
+.foto1 {
+    margin-top: 20px;
+}
+
+.foto1 img {
+    width: 50%;
+}
+
+.title5 {
+    color: #F7F7F7;
+    font-size: 15px;
+    text-align: left;
+    margin-top: -510px;
+    margin-left: 50%;
+    margin-right: 3%;
+}
+
+
+
+.foto2 {
+    margin-top: 90px;
+    float: right;
+    margin-right: 30px;
+    
+
+    
+
+}
+
+.foto2 img {
+    width: 100%;
+}
+
+.title6 {
+    color: #F7F7F7;
+    font-size: 25px;
+    float: left;
+    margin-right: 60%;
+    margin-top: -460px;
+    text-align: center;
+
+}
+
+.title7 {
+    color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 45%;
+    
+}
+
+
+
+    
+
+
+
+
+
+
+

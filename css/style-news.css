@@ -1,0 +1,292 @@
+
+body {
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+    font-weight: 400;
+}
+
+.arrowUp {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    box-shadow: 0 0 2px 2px rgb(19, 19, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 50px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.arrowUp:hover {
+    background-position: 100% 0;
+}
+
+.arrowUp img {
+    width: 20px;
+    height: 20px;
+}
+
+.container {
+    margin: 0px 120px;
+}
+
+.header {
+    background-color: black;
+    height: 122vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    color: #F7F7F7;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 22px;
+    
+    transition: color 0.3s linear;
+
+    margin-right: 40px;
+}
+
+.nav-item:hover {
+    color: #D90B2B;
+    
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.title {
+    margin-top: 50px;
+    color: #F7F7F7;
+    font-size: 50px;
+    padding-top: 80px;
+    text-align: left;   
+}
+
+.title1 {
+    color: #F7F7F7;
+    font-size: 18px;
+    text-align: left;  
+}
+
+.foto1 {
+    margin-left: 50%;
+    margin-top: -273px;
+}
+
+.foto1 img {
+    width: 30%;
+    padding: 10px;
+}
+
+.title2 {
+    margin-top: 20px;
+    color: #F7F7F7;
+    font-size: 50px;
+    padding-top: 80px;
+    text-align: right;   
+}
+
+.title3 {
+    color: #F7F7F7;
+    font-size: 18px;
+    text-align: right;  
+}
+
+.foto2 {
+    margin-right: 50%;
+    margin-top: -220px;
+}
+
+.foto2 img {
+    width: 40%;
+    padding: 10px;
+}
+
+.header1 {
+    background-color: black;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title4 {
+    margin-top: 50px;
+    color: #F7F7F7;
+    font-size: 50px;
+    padding-top: 80px;
+    text-align: center;   
+}
+
+
+.title5 {
+    margin-top: 50px;
+    color: #F7F7F7;
+    font-size: 30px;
+    text-align: left;   
+}
+
+.title6 {
+    color: #F7F7F7;
+    font-size: 18px;
+    text-align: left;  
+}
+
+
+.foto3 {
+    margin-top: -500px;
+    margin-left: 40%;
+}
+
+.foto3 img {
+    width: 30%;
+    padding: 10px;
+}
+
+.header2 {
+    background-color: black;
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title7 {
+    margin-top: 50px;
+    color: #F7F7F7;
+    font-size: 50px;
+    padding-top: 80px;
+    text-align: center;   
+}
+
+.title8 {
+    color: #F7F7F7;
+    font-size: 18px;
+    text-align: center;  
+}
+
+.foto4 {
+    margin-top: 0px;
+    margin-left: 10%;
+}
+
+.foto4 img {
+    width: 20%;
+    padding: 10px;
+}
+
+.title9 {
+    margin-top: 50px;
+    color: #F7F7F7;
+    font-size: 30px;
+    text-align: left; 
+    margin-left: 11%;  
+}
+
+.title10 {
+    color: #F7F7F7;
+    font-size: 18px;
+    text-align: left; 
+    margin-left: 11%;   
+}
+
+.header3 {
+    background-color: black;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto5 {
+    margin-right: 50%;
+    margin-top: -24%;
+}
+
+.foto5 img {
+    width: 40%;
+    padding: 10px;
+}
+
+.header4 {
+    background-color: black;
+    height: 200vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title11 {
+    margin-top: -40%;
+    color: #F7F7F7;
+    font-size: 50px;
+    padding-top: 80px;
+    text-align: left;
+    margin-left: 10%;   
+}
+
+.title12 {
+    color: #F7F7F7;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10%;  
+}
+
+.title13 {
+    margin-top: 0%;
+    color: #F7F7F7;
+    font-size: 50px;
+    padding-top: 80px;
+    text-align: right;
+    margin-right: 10%;   
+}
+
+.title14 {
+    color: #F7F7F7;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 10%;  
+}
+
+.title15 {
+    margin-top: 50px;
+    color: #F7F7F7;
+    font-size: 50px;
+    padding-top: 80px;
+    text-align: center;   
+}
+
+.title16 {
+    color: #F7F7F7;
+    font-size: 18px;
+    text-align: center;  
+}
+
+.foto6 {
+    text-align: center;
+    margin-top: 2%;
+    
+    
+}
+
+.foto6 img {
+    width: 20%;
+}
+
+
+
+
+
